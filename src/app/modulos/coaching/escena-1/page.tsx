@@ -41,7 +41,6 @@ export default function VideoScenePage() {
                         <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
                             Coaching – Escena 1: La primera sesión
                         </h1>
-
                         <div className="flex items-center space-x-4 text-sm text-gray-500 mb-6">
                             <span>10:45 min</span>
                             <span>•</span>
@@ -55,7 +54,6 @@ export default function VideoScenePage() {
                             <p className="mb-4">
                                 En esta escena, observaremos cómo establecer el "Rapport" inicial con un colaborador. Analizaremos el lenguaje no verbal, la escucha activa y las preguntas poderosas que abren la conversación hacia un espacio de confianza.
                             </p>
-
                             <h3 className="text-lg font-bold text-goya-blue mb-2">Puntos Clave a Observar</h3>
                             <ul className="list-disc pl-5 space-y-1">
                                 <li>Postura corporal abierta y receptiva.</li>
@@ -77,12 +75,10 @@ export default function VideoScenePage() {
                                 <CheckCircle className="w-5 h-5" />
                                 <span>Realizar Evaluación</span>
                             </button>
-
                             <button className="w-full flex items-center justify-center space-x-2 bg-white hover:bg-gray-50 text-gray-700 font-medium py-3 px-4 rounded-lg border border-gray-300 transition-colors">
                                 <MessageSquare className="w-5 h-5" />
                                 <span>Dejar un comentario</span>
                             </button>
-
                             <button className="w-full flex items-center justify-center space-x-2 bg-white hover:bg-gray-50 text-gray-700 font-medium py-3 px-4 rounded-lg border border-gray-300 transition-colors">
                                 <Share2 className="w-5 h-5" />
                                 <span>Compartir</span>

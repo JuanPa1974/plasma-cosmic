@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-goya-blue: #0033A0;
+  --color-goya-gold: #D4A017;
+  --color-goya-white: #FFFFFF;
+  
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #171717;
+}
+
+/* Remove dark mode for this corporate app as requested style is clean/corporate/white */
+/* keeping variables just in case but defaulting to light theme aesthetics */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
